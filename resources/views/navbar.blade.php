@@ -81,18 +81,17 @@
       
       <!-- Navbar Links -->
       <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-cta">
-      <div class="hidden md:flex space-x-8">
+              <div class="hidden md:flex space-x-8">
                 <a href="#" class="hover:text-primary">Home</a>
                 <a href="#" class="hover:text-primary">About</a>
                 <a href="#" class="hover:text-primary">Services</a>
-                <a href="#" class="hover:text-primary">Case Study</a>
-                <a href="#" class="hover:text-primary">Blog</a>
                 <a href="#" class="hover:text-primary">Contact Us</a>
-                
-            </div>
+                </div>
+              </div>
       </div>
     </div>
   </nav>
+</div>
 
  
 
