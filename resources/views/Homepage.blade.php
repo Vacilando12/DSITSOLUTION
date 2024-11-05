@@ -1,6 +1,7 @@
 @extends('layout')
 
 @section('content') 
+
 <div class="absolute inset-0 bg-grey opacity-100 min-h-screen">
     <div class="container mx-auto h-full flex flex-col lg:flex-row items-center justify-center lg:justify-start space-y-4 lg:space-y-0 lg:space-x-8 px-5">
         <div class="text-white max-w-lg space-y-4">
@@ -45,10 +46,10 @@
 @endsection       
 
 <script>
-  // JavaScript to add a class on scroll
+
   window.addEventListener('scroll', function() {
     const navbar = document.getElementById('navbar');
-    if (window.scrollY > 50) { // Adjust this value based on when you want the color change
+    if (window.scrollY > 50) { 
       navbar.classList.add('scrolled');
     } else {
       navbar.classList.remove('scrolled');
@@ -57,17 +58,24 @@
 </script>
 
 <style>
-  /* CSS for the scrolled class */
+   .primary {
+  color: #3490dc;
+}
+
+.hover\:text-primary:hover {
+  color: #3490dc;
+}
+  
   #navbar.scrolled {
-    background-color: white; /* Change navbar background to white */
-    color: black; /* Change text color to black */
+    background-color: skyblue; 
+    color: black; 
   }
   
   #navbar.scrolled a {
-    color: black; /* Change link color to black when scrolled */
+    color: black; 
   }
   
   #navbar.scrolled a:hover {
-    color: #00FFD1; /* Keep hover color consistent */
+    color:white; 
   }
 </style>
