@@ -67,7 +67,7 @@
 }
   
   #navbar.scrolled {
-    background-color: skyblue; 
+    background-color: #094aed; 
     color: black; 
   }
   
