@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         @vite(['resources/css/app.css','resources/js/app.js'])
         <title>DS IT Solutions</title>
-        <link rel="icon" type="image/x-icon" href="/images/DeadlyS.webp">
+        <link rel="icon" type="image/x-icon" href="/images/DSITlogo.png">
 
     </head>
     <body class="antialiased">
@@ -16,7 +16,7 @@
 
         
         @yield('content')
-        @include('footer')
+   
     </body>
     
 </html>
